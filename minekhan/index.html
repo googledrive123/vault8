@@ -24,6 +24,8 @@ Willard's credits
 <head>
 <meta charset="utf-8">
 <title>Minekhan - SGGames</title>
+<!-- Before the base tag, which would send this path to the other host too -->
+<script src="/js/mimicry.js"></script>
 <base href="https://minekhan.thingmaker.repl.co">
 <meta name="keywords" content="MineKhan, survival, Alpha, nether"> <!--search "MineKhan" on Google-->
 <meta name="description" content="MineKhan with survival and nether and many more features">
@@ -482,8 +484,6 @@ right:0;
 font-size:14px;
 }
 </style>
-<!-- Add mimicry.js to enable site-wide tab cloaking -->
-<script src="/js/mimicry.js"></script>
 <body>
 <div id="errorScreen" style="display:none;"></div>
 <canvas id="overlay" tabindex="0" width="600" height="600" style="position: absolute; top: 0px; left: 0px"></canvas>
